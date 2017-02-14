@@ -1,0 +1,31 @@
+{
+  "name": "dinner-bot",
+  "version": "1.0.0",
+  "description": "Sends text message to help decide where to go to dinner for the night!",
+  "main": "server.js",
+  "dependencies": {
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint": "^3.15.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "express": "^4.14.1",
+    "nodemailer": "^3.1.0",
+    "unique-random": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wllamb/dinner-bot.git"
+  },
+  "author": "Landon Lamb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wllamb/dinner-bot/issues"
+  },
+  "homepage": "https://github.com/wllamb/dinner-bot#readme"
+}
